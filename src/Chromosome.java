@@ -7,6 +7,7 @@ public class Chromosome {
 
     public Chromosome(int solutionSize) {
         this.solution = new int[solutionSize];
+        this.generateRandomSolution();
     }
 
     public void generateRandomSolution() {
